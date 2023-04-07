@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+div {
+    min-width: 500px;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 50px;
+    position: relative;
+}
+
+button {
+    width: 100px;
+    background-color: rgb(44, 89, 211);
+    border-radius: 8px;
+    color: rgb(208, 212, 212);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 25px 10px; 
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style-type: none;
+}
+
+li{
+
+}
+
+.svg1 {
+    display: none;
+    /* border: 1px solid red; */
+}
+.svg2 {
+    display: none;
+}
+
+.list__item1 {}
+
+.btnYes1 {}
+
+.btnNo1 {}
+
+.list__item2 {}
+
+.btnYes2 {}
+
+.btnNo2 {}
+
+.list__item3 {}
+
+.btnYes3 {}
+
+.btnNo3 {}
+
+.list__item4 {}
+
+.btnYes4 {}
+
+.btnNo4 {}
+
+.list__item5 {}
+
+.btnYes5 {}
+
+.btnNo5 {}
+
+.list__item6 {}
+
+.btnYes6 {}
+
+.btnNo6 {}
