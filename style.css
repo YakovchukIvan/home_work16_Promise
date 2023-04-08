@@ -71,10 +71,12 @@ li{
 
 .svg1 {
     display: none;
+    margin-right: 10px;
     /* border: 1px solid red; */
 }
 .svg2 {
     display: none;
+    margin-right: 10px;
 }
 
 .list__item1 {}
