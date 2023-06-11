@@ -1,33 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-
-
-html {
+* {
     box-sizing: border-box;
 }
 
-*,
-*::after {
-    box-sizing: inherit;
-}
-
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(41, 41, 41);
-    font-family: "Roboto", sans-serif;
-    font-size: 1.2rem;
-    color: white;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+    color: #333;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    color: rgb(19, 48, 73);
+    font-size: 22px;
+    font-family: 'Muli';
     /* height: 100vh; */
+    margin: 0;
 }
 
 div {
+    width: 700px;
+    margin: 25px 0;
+}
+
+.task1,
+.task2,
+.task3 {
+    border: 2px dashed rgb(82, 78, 78);
+    padding: 0px 10px;
+}
+
+form {
     min-width: 500px;
-    background-color: rgb(56, 56, 56);
+    background: linear-gradient(to right, #b1aff1, #fad1db);
     border: 1px solid rgb(27, 27, 27);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -35,17 +40,18 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     text-align: center;
-    margin-top: 50px;
     padding: 30px 50px;
     position: relative;
 }
 
 button {
     width: 100px;
-    background-color: rgb(44, 89, 211);
+    background-color: rgb(86, 123, 224);
     border-radius: 8px;
-    color: rgb(208, 212, 212);
+    border: 1px solid rgb(49, 121, 214);;
+    color: #faf1f1;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
@@ -53,20 +59,35 @@ button {
     margin: 25px 10px; 
 }
 
-p {
+button:active {
+    transform: scale(1.02);
+}
+
+input {
+    background: linear-gradient(to right, #9796f0, #e2728e);
     display: flex;
     justify-content: center;
     /* border: 1px solid red; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    color: #ffffff;
+    padding: 6px 12px;
     margin: 0; 
-    padding: 0;
+}
+
+input:focus {
+    outline: 1px solid #fff;
 }
 
 .list {
     list-style-type: none;
 }
 
-li{
-
+.send-btn {
+    width: fit-content;
+    margin: 0;
 }
 
 .svg1 {

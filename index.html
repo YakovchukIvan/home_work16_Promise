@@ -10,46 +10,29 @@
 <body>
     
     <h2>Оформлення документів для отримання візи у Канаду</h2>
-    <div>
-        <ul class="list">
-            <li class="list__item1">
-                
-                
-                <p><img class="svg1One svg1" src="./img/check.svg" alt="check"><img class="svg2One svg1" src="./img/circle.svg" alt="circle"> 1. Ваш закордонний паспорт дійсний?</p>
-                <button class="btnYes1" type="submit">Так</button><button class="btnNo1" type="button">Ні</button>
-            </li>
-            <li class="list__item2">
-                
-                
-                <p><img class="svg1Two svg1" src="./img/check.svg" alt=""><img class="svg2Two svg1" src="./img/circle.svg" alt=""> 2. Cкан-копії всіх сторінок закордонного паспорта</p>
-                <button class="btnYes2">Є</button><button class="btnNo2">Нема</button>
-            </li>
-            <li class="list__item3">
-                
-                
-                <p><img class="svg1Three svg1" src="./img/check.svg" alt=""><img class="svg2Three svg1" src="./img/circle.svg" alt=""> 3. Український паспорт з усіма заповненими сторінками</p>
-                <button class="btnYes3">Так</button><button class="btnNo3">Ні</button>
-            </li>
-            <li class="list__item4">
-                
-                
-                <p><img class="svg1Four svg1" src="./img/check.svg" alt=""><img class="svg2Four svg1" src="./img/circle.svg" alt=""> 4. Свідоцтво про шлюб чи розлучення</p>
-                <button class="btnYes4">Є</button><button class="btnNo4">Нема</button>
-            </li>
-            <li class="list__item5">
-                
-               
-                <p><img class="svg1Five svg1" src="./img/check.svg" alt=""><img class="svg2Five svg1" src="./img/circle.svg" alt=""> 5. Свідоцтва про народження дітей при наявності</p>
-                <button class="btnYes5">Є</button><button class="btnNo5">Нема</button>
-            </li>
-            <li class="list__item6">
-                
-             
-                <p><img class="svg1Six svg1" src="./img/check.svg" alt=""><img class="svg2Six svg1" src="./img/circle.svg" alt=""> 6. Виписку з банківського рахунку за останні пів року</p>
-                <button class="btnYes6">Є</button><button class="btnNo6">Нема</button>
-            </li>
-        </ul>
-    </div>
+
+    <form action="" class="form" id="add-form">
+        <label for="">Дійсний закордонний паспорт</label>
+        <input type="file" class="passport">
+
+        <label for="">Cкан-копії всіх сторінок закордонного паспорта;</label>
+        <input type="file" class="skan__passport">
+
+        <label for="">Український паспорт з усіма заповненими сторінками;</label>
+        <input type="file" class="ua__passport">
+
+        <label for="">Свідоцтво про шлюб чи розлучення;</label>
+        <input type="file" class="marriage__certificate">
+
+        <label for="">Свідоцтва про народження дітей при наявності;</label>
+        <input type="file" class="certificate__children">
+
+        <label for="">Виписка з банківського рахунку за останні пів року.</label>
+        <input type="file" class="statement__bank">
+
+        <button type="submit" class="send-btn">Відправити на перевірку</button>
+    </form>
+
 
 
     <script src="./script.js"></script>
